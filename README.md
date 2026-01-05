@@ -1,6 +1,6 @@
 # scGPT: Transformer-Based Single-Cell RNA-Sequencing Analysis
 
-## 🧬 Liver Endothelial Cell Classification: Healthy vs NASH/MASLD
+##  Liver Endothelial Cell Classification: Healthy vs NASH/MASLD
 
 A TensorFlow implementation of scGPT (Single-Cell GPT) for classifying liver endothelial cells and identifying disease-related transcriptomic signatures. This project fine-tunes a transformer-based foundation model to distinguish between healthy donor samples and NASH/MASLD (Metabolic Dysfunction-Associated Steatotic Liver Disease) samples at single-cell resolution.
 
@@ -25,7 +25,7 @@ A TensorFlow implementation of scGPT (Single-Cell GPT) for classifying liver end
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project implements scGPT, a transformer-based foundation model for single-cell RNA-sequencing (scRNA-seq) analysis. The model is fine-tuned for:
 
@@ -43,7 +43,7 @@ This project implements scGPT, a transformer-based foundation model for single-c
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Transformer Architecture**: 12-layer encoder with 8 attention heads
 - **Multi-Objective Learning**: 
@@ -58,7 +58,7 @@ This project implements scGPT, a transformer-based foundation model for single-c
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 ### Dataset Information
 
@@ -89,7 +89,7 @@ This project implements scGPT, a transformer-based foundation model for single-c
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ### scGPT Transformer Model
 
@@ -139,7 +139,7 @@ Input: [CLS] Gene1 Gene2 ... Gene1200
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -201,7 +201,7 @@ See `requirements.txt` for full list. Key dependencies:
 
 ---
 
-## 🏃 Quick Start
+##  Quick Start
 
 ### 1. Prepare Data
 
@@ -250,7 +250,7 @@ python evaluate_scgpt.py
 
 ---
 
-## 🎓 Training
+##  Training
 
 ### Training Configuration
 
@@ -302,7 +302,7 @@ After training, you'll find in `save/`:
 
 ---
 
-## 📈 Evaluation
+##  Evaluation
 
 ### Test Set Evaluation
 
@@ -340,7 +340,7 @@ python evaluate_scgpt.py
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Performance Summary
 
@@ -368,7 +368,7 @@ python evaluate_scgpt.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 scGPT/
@@ -401,7 +401,7 @@ scGPT/
 
 ---
 
-## 🔬 Batch Effect Correction
+##  Batch Effect Correction
 
 ### Domain Adversarial Batch (DAB)
 
@@ -487,7 +487,7 @@ plt.savefig("umap.png")
 
 ---
 
-## 🎨 Visualization
+##  Visualization
 
 ### Generated Visualizations
 
@@ -520,7 +520,7 @@ tensorboard --logdir=save/logs
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -560,7 +560,7 @@ module spider CUDA
 
 ---
 
-## 📚 References
+##  References
 
 ### scGPT Original Paper
 
